@@ -1,0 +1,16 @@
+@font-face {
+  font-family: openSansSemiBold;
+  src: url(font/OpenSans-SemiBold.ttf);
+}
+
+
+.title {
+    text-align: center;
+    font-family: openSansSemiBold;
+    color: white;
+    font-size: 800%;
+}
+
+body {
+    background-color: #FF6F61;
+}

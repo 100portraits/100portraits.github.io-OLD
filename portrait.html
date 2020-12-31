@@ -2,38 +2,31 @@
 <html lang="en-us">
 <head>
   <meta charset="utf-8">
-  <title>Lightbox Example</title>
-  <link rel="stylesheet" href="lightbox2-2.11.3/dist/css/lightbox.css">
+  <title>Portrait - 100portraits</title>
+    <link rel="stylesheet" href="splide-2.4.21/dist/css/splide.min.css">
+    <link rel="stylesheet" href="portrait.css">
 </head>
 <body>
 
-    <section>
 
-      <h3>Portrait</h3>
-      <div>
-        <a href="photos/full/full-01.jpg" data-lightbox="example-set" >
-            <img src="photos/thumb/thumb-01.jpg" alt=""/>
-        </a>
-        <a href="photos/full/full-02.jpg" data-lightbox="example-set" >
-            <img src="photos/thumb/thumb-02.jpg" alt="" />
-        </a>
-        <a href="photos/full/full-03.jpg" data-lightbox="example-set" >
-            <img src="photos/thumb/thumb-03.jpg" alt="" />
-          </a>
-        <a href="photos/full/full-04.jpg" data-lightbox="example-set" >
-            <img src="photos/thumb/thumb-04.jpg" alt="" />
-        </a>
-      </div>
-    </section>
+   <div id="image-slider" class="splide">
+	<div class="splide__track">
+		<ul class="splide__list">
+			<li class="splide__slide">
+				<img src="photos/full/full-01.jpg" height="500" width="500">
+			</li>
+			<li class="splide__slide">
+				<img src="photos/full/full-02.jpg" height="500" width="500">
+			</li>
+			<li class="splide__slide">
+				<img src="photos/full/full-03.jpg" height="500" width="500">
+			</li>
+		</ul>
+	</div>
+</div>
     
-    <script src="lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js"></script>
-    <script>
-        lightbox.option({
-            'resizeDuration': 200,
-            'wrapAround': true,
-            'imageFadeDuration': 300,
-    })
-</script>
-
+    
+<script src="splide-2.4.21/dist/js/splide.min.js"></script>
+<script src="portrait.js"></script>
 </body>
 </html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>Lightbox Example</title>
+  <link rel="stylesheet" href="lightbox2-2.11.3/dist/css/lightbox.css">
+</head>
+<body>
+
+    <section>
+
+      <h3>Portrait</h3>
+      <div>
+        <a href="photos/full/full-01.jpg" data-lightbox="example-set" >
+            <img src="photos/thumb/thumb-01.jpg" alt=""/>
+        </a>
+        <a href="photos/full/full-02.jpg" data-lightbox="example-set" >
+            <img src="photos/thumb/thumb-02.jpg" alt="" />
+        </a>
+        <a href="photos/full/full-03.jpg" data-lightbox="example-set" >
+            <img src="photos/thumb/thumb-03.jpg" alt="" />
+          </a>
+        <a href="photos/full/full-04.jpg" data-lightbox="example-set" >
+            <img src="photos/thumb/thumb-04.jpg" alt="" />
+        </a>
+      </div>
+    </section>
+    
+    <script src="lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js"></script>
+    <script>
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true,
+            'imageFadeDuration': 300,
+    })
+</script>
+
+</body>
+</html>

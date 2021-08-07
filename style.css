@@ -10,7 +10,6 @@
 }
 img {
     width: 100%;
-
 }
 button {
     background-color: black;
@@ -21,16 +20,19 @@ button {
     display: none;
 }
 
-.titlemid {
+#titlemid {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 450;
-    font-size: 17.5vw;
-    position:absolute;
+    font-weight: 150;
+    font-size: 17.0vw;
+    position:fixed;
     left: 40px;
     top: 0px;
     margin: 0 auto;
     padding: 0;
- 
+    -webkit-user-select: none;        
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
 
 }
 
@@ -54,20 +56,24 @@ button {
 }
 .footer {
     background: rgb(255, 255, 255);
-    width: 300px;
+    width: 600px;
     position: absolute;
-    bottom: 15px;
+    bottom: 1%;
     right: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-user-select: none;        
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
 }
 
 p {
 
 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
+ 
     color: rgb(0, 0, 0);
 }
 
@@ -99,4 +105,42 @@ p {
     background-position: center;
     margin: -100px 0 0 -100px;
     /* is width and height divided by two */
+  }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+#bottomText {
+    display: block;
+
+}
+#infoText {
+    display: none;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    p {font-size: 11px;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    p {font-size: 15px;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    p {font-size: 15px;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    p {font-size: 15px;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    p {font-size: 16px;}
   }

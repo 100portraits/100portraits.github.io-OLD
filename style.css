@@ -23,12 +23,13 @@ button {
 #titlemid {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 150;
-    font-size: 17.0vw;
+    font-size: 10.0vw;
     position:fixed;
     left: 40px;
     top: 0px;
     margin: 0 auto;
     padding: 0;
+    padding-top: 10px;
     -webkit-user-select: none;        
     -moz-user-select: none; 
     -ms-user-select: none; 
@@ -56,10 +57,11 @@ button {
 }
 .footer {
     background: rgb(255, 255, 255);
-    width: 600px;
     position: absolute;
-    bottom: 1%;
-    right: 25px;
+    bottom: 0.5%;
+    right: 0%;
+padding-left: 25px;
+padding-right: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,7 +75,7 @@ p {
 
 
     font-family: Georgia, 'Times New Roman', Times, serif;
- 
+    line-height: 1.5;
     color: rgb(0, 0, 0);
 }
 
@@ -86,9 +88,7 @@ p {
     right: 0;
     bottom: 0;
     background-color: #fff;
-    /* change if the mask should have another color then white */
     z-index: 99;
-    /* makes sure it stays on top */
   }
   
   #status {
@@ -96,15 +96,11 @@ p {
     height: 200px;
     position: absolute;
     left: 50%;
-    /* centers the loading animation horizontally one the screen */
     top: 50%;
-    /* centers the loading animation vertically one the screen */
     background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
-    /* path to your loading animation */
     background-repeat: no-repeat;
     background-position: center;
     margin: -100px 0 0 -100px;
-    /* is width and height divided by two */
   }
 
 a {
@@ -139,9 +135,12 @@ a {
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
     p {font-size: 15px;}
+
   } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     p {font-size: 16px;}
+        #titlemid {font-size: 13vw;}
+
   }

@@ -1,0 +1,18 @@
+
+.pagetitle {
+	text-align: center;
+	color: black;
+	font-family: "Georgia";
+	font-size: 60px;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+}
+body {
+	margin: 0;
+}
+
+.owl-carousel {
+	margin: 0;
+}

@@ -22,14 +22,11 @@ button {
 
 #titlemid {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 150;
-    font-size: 10.0vw;
+    font-size: 60px;
     position:fixed;
-    left: 40px;
-    top: 0px;
+
     margin: 0 auto;
     padding: 0;
-    padding-top: 10px;
     -webkit-user-select: none;        
     -moz-user-select: none; 
     -ms-user-select: none; 
@@ -41,6 +38,7 @@ button {
     height: 200px;
     padding-left: 20px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 

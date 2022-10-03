@@ -5,6 +5,3 @@ const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
   spaceBetween: 30,
 });
-img {
-  height: 500px;
-}

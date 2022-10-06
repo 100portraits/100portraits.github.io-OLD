@@ -1,13 +1,15 @@
-
+.header{
+	margin: 0px;
+	padding-top: 0;
+}
 .pagetitle {
 	text-align: center;
 	color: black;
 	font-family: "Georgia";
-	font-size: 60px;
-	margin: 0;
-	padding-top: 5px;
-	padding-bottom: 12px;
-
+	font-size: 83px;
+	margin: 0 auto;
+	padding-top: 8px;
+	padding-bottom: 18px;
 }
 body {
 	margin: 0;
@@ -38,7 +40,7 @@ p {
 
 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.5;
+
     color: rgb(0, 0, 0);
 }
 

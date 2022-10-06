@@ -1,79 +1,46 @@
-.container {
-    width: 100%;
-    margin: 0 auto;
-    position: fixed;
-    top: 57%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-
+.header{
+	margin: 0px;
+	padding-top: 0;
 }
-img {
-    width: 100%;
+.pagetitle {
+	text-align: center;
+	color: black;
+	font-family: "Georgia";
+	font-size: 83px;
+	margin: 0 auto;
+	padding-top: 8px;
+	padding-bottom: 18px;
 }
-button {
-    background-color: black;
-    border: none;
-    color: white;
-    height: 30px;
-    width: 10%;
-    display: none;
+body {
+	margin: 0;
 }
 
-#titlemid {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 60px;
-    position:fixed;
-
-    margin: 0 auto;
-    padding: 0;
-    -webkit-user-select: none;        
-    -moz-user-select: none; 
-    -ms-user-select: none; 
-    user-select: none; 
-
+.owl-carousel {
+	margin: 0;
 }
 
-.header {
-    height: 200px;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-
-.glide__slide {
-    filter: blur(6px) grayscale(60%) opacity(.2);
-
-    transition: .3s linear;
-
-}
-.glide__slide--active {
-    opacity: 1;
-    filter: none;
-
-}
 .footer {
-    background: rgb(255, 255, 255);
-    position: absolute;
-    bottom: 0.5%;
-    right: 0%;
-padding-left: 25px;
-padding-right: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    -webkit-user-select: none;        
-    -moz-user-select: none; 
-    -ms-user-select: none; 
-    user-select: none;
+	background: rgb(255, 255, 255);
+	position: absolute;
+	bottom: 0.5%;
+	right: 0%;
+	padding-left: 25px;
+	padding-right: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-user-select: none;        
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	user-select: none;
 }
+
 
 p {
 
 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.5;
+
     color: rgb(0, 0, 0);
 }
 
@@ -100,45 +67,11 @@ p {
     background-position: center;
     margin: -100px 0 0 -100px;
   }
+#infoText {
+    display: none;
 
-a {
-    text-decoration: none;
-    color: inherit;
 }
 #bottomText {
     display: block;
 
 }
-#infoText {
-    display: none;
-
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    p {font-size: 11px;}
-    
-  }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-    p {font-size: 15px;}
-  }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    p {font-size: 15px;}
-  } 
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    p {font-size: 15px;}
-
-  } 
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    p {font-size: 16px;}
-        #titlemid {font-size: 13vw;}
-
-  }

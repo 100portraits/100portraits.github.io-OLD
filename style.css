@@ -2,6 +2,10 @@
 	margin: 0px;
 	padding-top: 0;
 }
+i{
+	text-decoration: none;
+	color: black
+}
 .pagetitle {
 	text-align: center;
 	color: black;

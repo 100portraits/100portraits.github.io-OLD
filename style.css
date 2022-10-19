@@ -19,7 +19,7 @@ h1{
 		font-family: "Georgia";
 	font-weight: lighter;
 	font-size: 12vw;
-	padding: 0.1em;
+
 	color: white;
 	text-align: center;
 }
@@ -53,14 +53,25 @@ hr {
 		padding: 0.6vw;
 		height: 30vh;
 		margin-bottom: 0px;
+		margin-top: 50px;
 	}
 	h1 {
 		font-size: 9.5vw;
+		margin-bottom: 15px;
 	}
 }
 
 p {
+	margin: 10 auto 0 auto;
+	text-align: center;
 	color: lightgray;
 	position: relative;
-	padding: 20px;
+	padding: 0px;
+}
+i {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
 }

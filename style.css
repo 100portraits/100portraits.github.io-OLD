@@ -1,5 +1,5 @@
 body {
-	margin: 0;
+	margin: 20px;
 	background-color: #121212;
 }
 * {
@@ -29,6 +29,7 @@ h2 {
 }
 
 [class*="col-"] {
+	border: 1px solid darkgrey;
 	background-color: #2b2b2b;
  color: white;
 	display: inline-flex;
@@ -41,7 +42,9 @@ h2 {
 	margin-bottom: 15px;
 }
 
-
+hr {
+	border-color: darkgrey;
+}
 @media only screen and (min-width: 600px) {
 	/* For desktop: */
 	[class*="col-"] {
@@ -56,3 +59,8 @@ h2 {
 	}
 }
 
+p {
+	color: lightgray;
+	position: relative;
+	padding: 20px;
+}

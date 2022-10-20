@@ -7,8 +7,19 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src='script.js'></script>
+    <style>
+        .material-symbols-outlined {
+            font-size: 70px;
+            color: #c4c4c4;
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 200,
+            'GRAD' -25,
+            'opsz' 98
+        }
+    </style>
 </head>
 <body>
     <!-- Preloader 
@@ -17,183 +28,186 @@
             &nbsp;
         </div>
     </div>
-    -->
-    <header>
-        <h1>100portraits</h1>
-    </header>
-    <div class="pics">
-        <div class="row">
-            <div class="col-1"><img src="../images/img-1.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-2.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-3.jpg"></div> <!-- 25% -->
+-->
+<div class="scroll" onclick="scrollup()"><span class="material-symbols-outlined">
+    arrow_upward
+</span></div>
+<header>
+    <h1>100portraits</h1>
+</header>
+<div class="pics">
+    <div class="row">
+        <div class="col-1"><img src="../images/img-1.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-2.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-3.jpg"></div> <!-- 25% -->
 
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-4.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-5.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-6.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-7.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-8.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-9.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-10.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-11.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-12.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-13.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-14.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-15.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-16.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-17.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-18.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-19.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-20.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-21.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-22.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-23.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-24.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-25.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-26.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-27.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-28.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-29.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-30.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-31.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-32.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-33.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-34.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-35.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-36.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-37.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-38.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-39.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-40.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-41.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-42.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-43.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-44.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-45.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-46.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-47.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-48.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-49.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-50.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-51.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-52.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-53.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-54.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-55.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-56.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-57.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-58.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-59.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-60.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-61.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-62.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-63.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-64.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-65.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-66.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-67.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-68.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-69.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-70.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-71.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-72.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-73.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-74.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-75.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-76.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-77.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-78.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-79.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-80.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-81.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-82.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-83.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-84.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-85.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-86.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-87.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-88.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-89.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-90.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-91.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-92.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-93.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-94.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-95.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-96.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-97.jpg"></div> <!-- 25% -->
-            <div class="col-2"><img src="../images/img-98.jpg"></div> <!-- 75% -->
-            <div class="col-3"><img src="../images/img-99.jpg"></div> <!-- 25% -->
-        </div>
-        <div class="row">
-            <div class="col-1"><img src="../images/img-100.jpg"></div> <!-- 25% -->
-            <div class="col-2"><div class="thanks"><p>Thank you for visiting, more on the way. <br>Find me on <a href="https://www.instagram.com/sahir.de">Instagram</a> and <a href="https://github.com/100portraits">Github</a>. -sahir</p></div></div> <!-- 25% -->
-
-        </div>
     </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-4.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-5.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-6.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-7.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-8.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-9.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-10.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-11.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-12.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-13.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-14.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-15.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-16.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-17.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-18.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-19.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-20.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-21.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-22.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-23.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-24.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-25.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-26.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-27.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-28.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-29.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-30.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-31.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-32.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-33.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-34.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-35.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-36.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-37.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-38.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-39.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-40.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-41.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-42.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-43.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-44.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-45.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-46.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-47.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-48.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-49.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-50.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-51.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-52.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-53.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-54.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-55.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-56.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-57.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-58.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-59.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-60.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-61.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-62.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-63.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-64.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-65.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-66.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-67.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-68.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-69.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-70.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-71.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-72.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-73.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-74.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-75.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-76.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-77.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-78.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-79.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-80.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-81.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-82.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-83.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-84.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-85.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-86.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-87.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-88.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-89.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-90.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-91.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-92.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-93.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-94.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-95.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-96.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-97.jpg"></div> <!-- 25% -->
+        <div class="col-2"><img src="../images/img-98.jpg"></div> <!-- 75% -->
+        <div class="col-3"><img src="../images/img-99.jpg"></div> <!-- 25% -->
+    </div>
+    <div class="row">
+        <div class="col-1"><img src="../images/img-100.jpg"></div> <!-- 25% -->
+        <div class="col-2"><div class="thanks"><p>Thank you for visiting, more on the way. <br>Find me on <a href="https://www.instagram.com/sahir.de">Instagram</a> and <a href="https://github.com/100portraits">Github</a>. -sahir</p></div></div> <!-- 25% -->
+
+    </div>
+</div>
 <!--
     <img src="../images/img-1.jpg">
     <img src="../images/img-2.jpg">
